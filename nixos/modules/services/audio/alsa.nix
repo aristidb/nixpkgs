@@ -23,7 +23,8 @@ in
         type = types.bool;
         default = false;
         description = ''
-          Whether to enable ALSA sound.
+          Whether to enable ALSA sound. Will also enable pulseaudio unless
+          <option>hardware.pulseaudio.enable</option> is set to false.
         '';
       };
 
