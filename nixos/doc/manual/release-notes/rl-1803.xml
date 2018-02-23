@@ -82,7 +82,9 @@ following incompatible changes:</para>
 <itemizedlist>
   <listitem>
     <para>
-      <literal>sound.enable</literal> now defaults to false.
+      <option>sound.enable</option> now defaults to false. Additionally,
+      <option>hardware.pulseaudio.enable</option> now defaults to true if
+      <option>sound.enable</option> is true.
     </para>
   </listitem>
   <listitem>
